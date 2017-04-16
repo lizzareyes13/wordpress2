@@ -1,0 +1,591 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Stallion WordPress SEO Plugin v3.0.0\n"
+"POT-Creation-Date: 2016-11-19 13:05+0000\n"
+"PO-Revision-Date: 2016-11-19 12:24+0000\n"
+"Last-Translator: David Law <davidlseo@gmail.com>\n"
+"Language-Team: David Law <davidlseo@gmail.com>\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+
+#: admin/class-settings.php:107
+msgid "Stallion WordPress SEO Plugin Options"
+msgstr ""
+
+#: admin/class-settings.php:115
+#, php-format
+msgid ""
+"Please Note: this is NOT a replacement for plugins like the Yoast SEO plugin "
+"(<a href='%s' target='_blank'>see Yoast Plugin review</a>) or the All In One "
+"SEO plugin (<a href='%s' target='_blank'>see All in One SEO Plugin review.</"
+"a>). The Stallion WordPress SEO Plugin is a replacement for damaging SEO "
+"features related to Noindex and Nofollow within plugins like Yoast and All "
+"In One. It does NOT manage title tags or meta tags."
+msgstr ""
+
+#: admin/class-settings.php:121
+#, php-format
+msgid ""
+"This plugin was created to replace the SEO damaging plugin features related "
+"to nofollow and noindex that are part of some of the most popular WordPress "
+"SEO plugins Yoast and All In One SEO. See the <a href='%s' "
+"target='_blank'>Stallion WordPress SEO Plugin Article</a> for why webmasters "
+"shouldn't be using noindex and nofollow and how this plugin uses canonical "
+"URLs to conserve link benefit from the pages you don't want indexed."
+msgstr ""
+
+#: admin/class-settings.php:125
+msgid "Yoast WordPress SEO and All In One SEO Have Damaging SEO Features!"
+msgstr ""
+
+#: admin/class-settings.php:127
+msgid ""
+"Popular SEO plugins like the All in One SEO Pack WordPress Plugin and the "
+"Yoast WordPress SEO Plugin add damaging nofollow and noindex code to "
+"WordPress sites. If one of those plugins are active, check the warnings on "
+"the warnings tabs below. If you see red warnings, best advice 2016 is turn "
+"those Yoast or All In One SEO features OFF."
+msgstr ""
+
+#: admin/class-settings.php:132
+#, php-format
+msgid ""
+"<a href='%s' target='_blank'>More Information About the Stallion WordPress "
+"SEO Plugin</a>."
+msgstr ""
+
+#. ID used to identify this section and with which to register options
+#: admin/class-settings.php:147 admin/class-settings.php:288
+msgid "Not Index Options"
+msgstr ""
+
+#. ID used to identify this section and with which to register options
+#: admin/class-settings.php:148 admin/class-settings.php:405
+msgid "SEO Plugin Warnings"
+msgstr ""
+
+#: admin/class-settings.php:170
+msgid "Short Not Index Tutorial"
+msgstr ""
+
+#: admin/class-settings.php:174
+msgid ""
+"The page types blocked above will still be spidered by Google etc..., but "
+"those pages will no longer be indexed (they will not be found for relevant "
+"searches). Links from those blocked pages will be followed and most of the "
+"link benefit that would be wasted if you noindexed archives etc... (options "
+"available in the Yoast and All In One SEO Plugins) is recovered and sent "
+"back to the home page or the first page of category/tag/search result "
+"archives via canonical URLs."
+msgstr ""
+
+#: admin/class-settings.php:178
+msgid ""
+"With the right settings your sites important pages will be fully indexed, "
+"while unimportant pages (like monthly archives) are not indexed and the link "
+"benefit to those blocked (Not Indexed) pages is partially recycled."
+msgstr ""
+
+#: admin/class-settings.php:184
+#, php-format
+msgid ""
+"For a detailed set of plugin option tutorials click the More Information "
+"links above. Also see the <a href='%s' target='_blank'>WordPress SEO "
+"Tutorial</a> and the general <a href='%s' target='_blank'>Step by Step SEO "
+"Tutorial</a> to learn a lot more about search engine optimization."
+msgstr ""
+
+#: admin/class-settings.php:194
+#, php-format
+msgid "<a href=\"%s\" target=\"_blank\">More WordPress Plugins</a>"
+msgstr ""
+
+#: admin/class-settings.php:210
+#, php-format
+msgid ""
+"NOT INDEX is an advanced SEO technique using canonical URLs instead of "
+"noindex robot meta tags. Not Index was created to replace the SEO damaging "
+"(wastes ~15% of a noindex pages link benefit) Noindex Robots Meta Tag "
+"features found in the Yoast and All In One SEO plugins. Not Index the "
+"following page types and recover most of the link benefit that would be lost "
+"using the Noindex Robots Meta Tag."
+msgstr ""
+
+#: admin/class-settings.php:211
+msgid "** = recommended."
+msgstr ""
+
+#: admin/class-settings.php:212
+msgid "^^ = suggested."
+msgstr ""
+
+#: admin/class-settings.php:213
+msgid "Highlighted Green = SEO safe for most sites."
+msgstr ""
+
+#: admin/class-settings.php:214
+msgid ""
+"Highlighted Orange = SEO safe for most sites, but check the More Information "
+"links for details."
+msgstr ""
+
+#: admin/class-settings.php:215
+msgid ""
+"Highlighted Red = probably a bad idea, but check the More Information links "
+"for details."
+msgstr ""
+
+#: admin/class-settings.php:296
+msgid "WordPress Login Pages"
+msgstr ""
+
+#: admin/class-settings.php:304
+msgid "WordPress Date Archives"
+msgstr ""
+
+#: admin/class-settings.php:312
+msgid "WordPress Author Archives"
+msgstr ""
+
+#: admin/class-settings.php:320
+msgid "WordPress Search Result Archives"
+msgstr ""
+
+#: admin/class-settings.php:328
+msgid "WordPress Category Archives"
+msgstr ""
+
+#: admin/class-settings.php:336
+msgid "WordPress Tag Archives"
+msgstr ""
+
+#: admin/class-settings.php:344
+msgid "WordPress Custom Taxonomy Archives"
+msgstr ""
+
+#: admin/class-settings.php:352
+msgid "WordPress Custom Post Type Archives"
+msgstr ""
+
+#: admin/class-settings.php:360
+msgid "WordPress Home Page Archives"
+msgstr ""
+
+#: admin/class-settings.php:368
+msgid "WordPress Paged Comments on Posts and Pages"
+msgstr ""
+
+#: admin/class-settings.php:376
+msgid "Stallion SEO Plugin Clean Head"
+msgstr ""
+
+#: admin/class-settings.php:412
+msgid "Stallion SEO Warnings"
+msgstr ""
+
+#: admin/class-settings.php:420
+msgid "Yoast SEO Warnings"
+msgstr ""
+
+#: admin/class-settings.php:428
+msgid "All In One SEO Warnings"
+msgstr ""
+
+#: admin/class-settings.php:450 admin/class-settings.php:469
+#: admin/class-settings.php:488 admin/class-settings.php:511
+#: admin/class-settings.php:534 admin/class-settings.php:557
+#: admin/class-settings.php:580 admin/class-settings.php:603
+#: admin/class-settings.php:626 admin/class-settings.php:645
+#: admin/class-settings.php:664 admin/class-settings.php:683
+#: admin/class-settings.php:706 admin/class-settings.php:731
+#, php-format
+msgid "<a href='%s' target='_blank'>More Information</a>"
+msgstr ""
+
+#: admin/warning-all-in-one-seo-plugin.php:2
+msgid "All In One SEO Pack Plugin Warnings Version"
+msgstr ""
+
+#: admin/warning-all-in-one-seo-plugin.php:5
+#, php-format
+msgid ""
+"You are using the All In One SEO Pack Plugin, some of the settings within "
+"this plugin are SEO damaging. If you are a <a href=\"%s\" target=\"_blank"
+"\">Stallion Responsive Theme</a> user it is recommended while using the "
+"Stallion Responsive Theme to deactivate the All In One plugin as there are "
+"plugin features which stop theme features working correctly."
+msgstr ""
+
+#: admin/warning-all-in-one-seo-plugin.php:11
+#, php-format
+msgid ""
+"All IMPORTANT SEO features are covered by the Stallion Responsive Theme AND "
+"Stallion Responsive will use most of your All In One SEO data including "
+"within various Stallion Responsive features and widgets (makes really good "
+"use of All In One SEO title tags). See <a href=\"%s\" target=\"_blank\">All "
+"In One SEO Pack Review</a> for details."
+msgstr ""
+
+#: admin/warning-all-in-one-seo-plugin.php:17
+#, php-format
+msgid ""
+"Below are the <b style=\"color:red;\">damaging SEO settings</b> you are "
+"currently using, if there are no <b style=\"color:red;\">red settings</b> "
+"listed below, well done you have not set any of the damaging SEO features. "
+"If you see red warnings click the <a href=\"%s\" target=\"_blank\">More "
+"Information</a> links"
+msgstr ""
+
+#: admin/warning-all-in-one-seo-plugin.php:27
+msgid "General Settings - Noindex Settings : Default to NOINDEX"
+msgstr ""
+
+#: admin/warning-all-in-one-seo-plugin.php:29
+#, php-format
+msgid ""
+"<b style=\"color:red;\">Default to NOINDEX: Posts, Pages or Media Enabled</"
+"b> : <a href=\"%s\" target=\"_blank\">More Information</a>."
+msgstr ""
+
+#: admin/warning-all-in-one-seo-plugin.php:40
+msgid "General Settings - Noindex Settings : Default to NOFOLLOW"
+msgstr ""
+
+#: admin/warning-all-in-one-seo-plugin.php:42
+#, php-format
+msgid ""
+"<b style=\"color:red;\">Default to NOFOLLOW: Posts, Pages or Media Enabled</"
+"b> : <a href=\"%s\" target=\"_blank\">More Information</a>."
+msgstr ""
+
+#: admin/warning-all-in-one-seo-plugin.php:53
+msgid "General Settings - Noindex Settings : Use noindex for Categories"
+msgstr ""
+
+#: admin/warning-all-in-one-seo-plugin.php:55
+#, php-format
+msgid ""
+"<b style=\"color:red;\">Use noindex for Categories ON</b> : <a href=\"%s\" "
+"target=\"_blank\">More Information</a>."
+msgstr ""
+
+#: admin/warning-all-in-one-seo-plugin.php:66
+msgid "General Settings - Noindex Settings : Use noindex for Date Archives"
+msgstr ""
+
+#: admin/warning-all-in-one-seo-plugin.php:68
+#, php-format
+msgid ""
+"<b style=\"color:red;\">Use noindex for Date Archives ON</b> : <a href=\"%s"
+"\" target=\"_blank\">More Information</a>."
+msgstr ""
+
+#: admin/warning-all-in-one-seo-plugin.php:79
+msgid "General Settings - Noindex Settings : Use noindex for Author Archives"
+msgstr ""
+
+#: admin/warning-all-in-one-seo-plugin.php:81
+#, php-format
+msgid ""
+"<b style=\"color:red;\">Use noindex for Author Archives ON</b> : <a href=\"%s"
+"\" target=\"_blank\">More Information</a>."
+msgstr ""
+
+#: admin/warning-all-in-one-seo-plugin.php:92
+msgid "General Settings - Noindex Settings : Use noindex for Tag Archives"
+msgstr ""
+
+#: admin/warning-all-in-one-seo-plugin.php:94
+#, php-format
+msgid ""
+"<b style=\"color:red;\">Use noindex for Tag Archives ON</b> : <a href=\"%s\" "
+"target=\"_blank\">More Information</a>."
+msgstr ""
+
+#: admin/warning-all-in-one-seo-plugin.php:105
+msgid "General Settings - Noindex Settings : Use noindex for Search Archives"
+msgstr ""
+
+#: admin/warning-all-in-one-seo-plugin.php:107
+#, php-format
+msgid ""
+"<b style=\"color:red;\">Use noindex for Search Archives ON</b> : <a href=\"%s"
+"\" target=\"_blank\">More Information</a>."
+msgstr ""
+
+#: admin/warning-all-in-one-seo-plugin.php:118
+msgid "General Settings - Noindex Settings : Use noindex for 404 Pages"
+msgstr ""
+
+#: admin/warning-all-in-one-seo-plugin.php:120
+#, php-format
+msgid ""
+"<b style=\"color:red;\">Use noindex for 404 Pages ON</b> : <a href=\"%s\" "
+"target=\"_blank\">More Information</a>."
+msgstr ""
+
+#: admin/warning-all-in-one-seo-plugin.php:132
+msgid ""
+"General Settings - Noindex Settings : Use noindex for Taxonomy Archives:"
+msgstr ""
+
+#: admin/warning-all-in-one-seo-plugin.php:134
+#, php-format
+msgid ""
+"<b style=\"color:red;\">Use noindex for Taxonomy Archives: Any Taxonomy "
+"Enabled</b> : <a href=\"%s\" target=\"_blank\">More Information</a>."
+msgstr ""
+
+#: admin/warning-all-in-one-seo-plugin.php:145
+msgid ""
+"General Settings - Noindex Settings : Use noindex for paginated pages/posts"
+msgstr ""
+
+#: admin/warning-all-in-one-seo-plugin.php:147
+#, php-format
+msgid ""
+"<b style=\"color:red;\">Use noindex for paginated pages/posts ON</b> : <a "
+"href=\"%s\" target=\"_blank\">More Information</a>."
+msgstr ""
+
+#: admin/warning-all-in-one-seo-plugin.php:158
+msgid ""
+"General Settings - Noindex Settings : Use nofollow for paginated pages/posts"
+msgstr ""
+
+#: admin/warning-all-in-one-seo-plugin.php:160
+#, php-format
+msgid ""
+"<b style=\"color:red;\">Use nofollow for paginated pages/posts ON</b> : <a "
+"href=\"%s\" target=\"_blank\">More Information</a>."
+msgstr ""
+
+#: admin/warning-stallion-seo-plugin.php:2
+msgid "Stallion WordPress SEO Plugin Warnings Version"
+msgstr ""
+
+#: admin/warning-stallion-seo-plugin.php:5
+#, php-format
+msgid ""
+"You are using the Stallion WordPress SEO Plugin, some of the settings within "
+"this plugin are SEO damaging. If you are a <a href=\"%s\" target=\"_blank"
+"\">Stallion Responsive Theme v8.5+</a> user there are almost identical Not "
+"Index options under \"Stallion Theme\" > \"SEO Advanced Options\" : "
+"\"Stallion WordPress SEO Plugin\". It is safe to use the Stallion Responsive "
+"Theme and the Stallion WordPress SEO Plugin at the same time. The plugin "
+"options take priority over theme options."
+msgstr ""
+
+#: admin/warning-stallion-seo-plugin.php:10
+msgid ""
+"Note All IMPORTANT SEO features are covered by the Stallion Responsive Theme "
+"AND Stallion Responsive includes it's own title tags and meta tags features "
+"and uses most of Yoast and All In One SEO data."
+msgstr ""
+
+#: admin/warning-stallion-seo-plugin.php:13
+#, php-format
+msgid ""
+"Below are the <b style='color:red;'>damaging SEO settings</b> you are "
+"currently using, if there are no <b style='color:red;'>red settings</b> "
+"listed below, well done you haven't set any of the damaging SEO features. "
+"Note: <b style='color:orange;'>orange settings</b> are SEO notices, there "
+"are circumstances this can cause SEO damage. The <b style='color:blue;'>blue "
+"settings</b> are SEO reminders, blue is a good options, but can be improved "
+"further via other WordPress settings. See the <a href='%s' "
+"target='_blank'>More Information</a> links."
+msgstr ""
+
+#: admin/warning-stallion-seo-plugin.php:24
+msgid "Not Index Options : WordPress Date Archives"
+msgstr ""
+
+#: admin/warning-stallion-seo-plugin.php:26
+#, php-format
+msgid ""
+"<b style=\"color:blue;\">Block All Date Archives**</b> : <a href=\"%s\" "
+"target=\"_blank\">More Information</a>."
+msgstr ""
+
+#: admin/warning-stallion-seo-plugin.php:38
+msgid "Not Index Options : WordPress Author Archives"
+msgstr ""
+
+#: admin/warning-stallion-seo-plugin.php:40
+#, php-format
+msgid ""
+"<b style=\"color:orange;\">Block All Author Archives^^</b> : <a href=\"%s\" "
+"target=\"_blank\">More Information</a>."
+msgstr ""
+
+#: admin/warning-stallion-seo-plugin.php:52
+msgid "Not Index Options : WordPress Category Archives"
+msgstr ""
+
+#: admin/warning-stallion-seo-plugin.php:54
+#, php-format
+msgid ""
+"<b style=\"color:red;\">Block All Categories</b> : <a href=\"%s\" target="
+"\"_blank\">More Information</a>."
+msgstr ""
+
+#: admin/warning-stallion-seo-plugin.php:66
+msgid "Not Index Options : WordPress Tag Archives"
+msgstr ""
+
+#: admin/warning-stallion-seo-plugin.php:68
+#, php-format
+msgid ""
+"<b style=\"color:red;\">Block All Tags</b> : <a href=\"%s\" target=\"_blank"
+"\">More Information</a>."
+msgstr ""
+
+#: admin/warning-stallion-seo-plugin.php:80
+msgid "Not Index Options : WordPress Custom Taxonomy Archives"
+msgstr ""
+
+#: admin/warning-stallion-seo-plugin.php:82
+#, php-format
+msgid ""
+"<b style=\"color:red;\">Block All Custom Taxonomy Archives</b> : <a href=\"%s"
+"\" target=\"_blank\">More Information</a>."
+msgstr ""
+
+#: admin/warning-stallion-seo-plugin.php:94
+msgid "Not Index Options : WordPress Custom Post Type Archives"
+msgstr ""
+
+#: admin/warning-stallion-seo-plugin.php:96
+#, php-format
+msgid ""
+"<b style=\"color:red;\">Block All Custom Post Type Archives</b> : <a href="
+"\"%s\" target=\"_blank\">More Information</a>."
+msgstr ""
+
+#: admin/warning-yoast-seo-plugin.php:2
+msgid "Yoast WordPress SEO Plugin Warnings Version"
+msgstr ""
+
+#: admin/warning-yoast-seo-plugin.php:5
+#, php-format
+msgid ""
+"You are using the Yoast WordPress SEO Plugin, some of the settings within "
+"this plugin are SEO damaging. If you are a <a href=\"%s\" target=\"_blank"
+"\">Stallion Responsive Theme</a> user it is recommended while using the "
+"Stallion Responsive Theme to deactivate the Yoast plugin as there are plugin "
+"features which stop theme features working correctly."
+msgstr ""
+
+#: admin/warning-yoast-seo-plugin.php:11
+#, php-format
+msgid ""
+"All IMPORTANT SEO features are covered by the Stallion Responsive Theme AND "
+"Stallion Responsive will use most of your Yoast SEO data including within "
+"various Stallion Responsive features and widgets (makes good use of Yoast "
+"title tags). See <a href=\"%s\" target=\"_blank\">Yoast WordPress SEO Plugin "
+"Review</a> for details. Good news is the plugin author has finally removed "
+"the sitewide nofollow features which deleted link benefit, but unfortunately "
+"still uses noindex (section wide) and nofollow on a page by page basis."
+msgstr ""
+
+#: admin/warning-yoast-seo-plugin.php:17
+#, php-format
+msgid ""
+"Below are the <b style='color:red;'>damaging SEO settings</b> you are "
+"currently using, if there are no <b style='color:red;'>red settings</b> "
+"listed below, well done you haven't set any of the damaging SEO features. If "
+"you see red warnings check out the <a href='%s' target='_blank'>More "
+"Information</a> links."
+msgstr ""
+
+#: admin/warning-yoast-seo-plugin.php:25
+msgid ""
+"Note: The developers of Yoast tend to change the options page layout on a "
+"regular basis, if you find a red warning below you can't find under a "
+"particular options page, the developers have probably moved it to another "
+"page."
+msgstr ""
+
+#: admin/warning-yoast-seo-plugin.php:40
+msgid "Titles and Metas - Post Types : Posts"
+msgstr ""
+
+#: admin/warning-yoast-seo-plugin.php:42 admin/warning-yoast-seo-plugin.php:55
+#: admin/warning-yoast-seo-plugin.php:68 admin/warning-yoast-seo-plugin.php:81
+#: admin/warning-yoast-seo-plugin.php:94 admin/warning-yoast-seo-plugin.php:107
+#: admin/warning-yoast-seo-plugin.php:120
+#: admin/warning-yoast-seo-plugin.php:133
+#, php-format
+msgid ""
+"<b style=\"color:red;\">Meta Robots: noindex</b> : <a href=\"%s\" target="
+"\"_blank\">More Information</a>."
+msgstr ""
+
+#: admin/warning-yoast-seo-plugin.php:53
+msgid "Titles and Metas - Post Types : Pages"
+msgstr ""
+
+#: admin/warning-yoast-seo-plugin.php:66
+msgid "Titles and Metas - Post Types : Media"
+msgstr ""
+
+#: admin/warning-yoast-seo-plugin.php:79
+msgid "Titles and Metas - Taxonomies : Categories"
+msgstr ""
+
+#: admin/warning-yoast-seo-plugin.php:92
+msgid "Titles and Metas - Taxonomies : Tags"
+msgstr ""
+
+#: admin/warning-yoast-seo-plugin.php:105
+msgid "Titles and Metas - Taxonomies : Format"
+msgstr ""
+
+#: admin/warning-yoast-seo-plugin.php:118
+msgid "Titles and Metas - Archives : Author Archives"
+msgstr ""
+
+#: admin/warning-yoast-seo-plugin.php:131
+msgid "Titles and Metas - Archives : Date Archives"
+msgstr ""
+
+#: admin/warning-yoast-seo-plugin.php:144
+msgid "Titles and Metas - Other : Sitewide meta settings"
+msgstr ""
+
+#: admin/warning-yoast-seo-plugin.php:146
+#, php-format
+msgid ""
+"<b style=\"color:red;\">Subpages of archives: noindex</b> : <a href=\"%s\" "
+"target=\"_blank\">More Information</a>."
+msgstr ""
+
+#. Name of the plugin
+msgid "Stallion WordPress SEO Plugin"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Block search engines like Google from indexing sections/pages of your site "
+"without deleting valuable link benefit via canonical URLs rather than "
+"noindex and nofollow. Other so called WordPress SEO plugins damage your "
+"sites search engine optimization by using nofollow (deletes link benefit) "
+"and noindex (wastes link benefit). The Stallion WordPress SEO Plugin uses "
+"canonical URLs to conserve link benefit."
+msgstr ""
+
+#. URI of the plugin
+msgid "http://stallion-theme.co.uk/stallion-wordpress-seo-plugin/"
+msgstr ""
+
+#. Author of the plugin
+msgid "David Law"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://stallion-theme.co.uk/"
+msgstr ""

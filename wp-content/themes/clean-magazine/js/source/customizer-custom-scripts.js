@@ -1,0 +1,22 @@
+/**
+ * Add a listener to the Color Scheme control to update other color controls to new values/defaults.
+ */
+
+( function( api ) {
+    wp.customize( 'clean_magazine_theme_options[reset_all_settings]', function( setting ) {
+        setting.bind( function( value ) {
+            var code = 'needs_refresh';
+            if ( value ) {
+                setting.notifications.add( code, new wp.customize.Notification(
+                    code,
+                    {
+                        type: 'info',
+                        message: clean_magazine_data.reset_message
+                    }
+                ) );
+            } else {
+                setting.notifications.remove( code );
+            }
+        } );
+    } );
+} )( wp.customize );

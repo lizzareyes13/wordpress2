@@ -1,0 +1,63 @@
+== Change Log ==
+
+= 1.6 =
+* Updated: HTML Shiv script loading
+* Updated: Updated upgrade to pro button with respect to trt decision
+* Updated: Reset all settings compatibility with WordPress v4.6
+* Updated: Custom CSS to Additional CSS( Core Support ) for WP version 4.7
+* Code Optimization
+
+= 1.5.1 =
+* Removed: Footer sidebar 4 as it is not available in free version(Reported By: eliza)
+
+= 1.5 =
+* Removed: update_option for thumbnail image size and added new image sizes as clean-magazine-small
+
+= 1.4 =
+* Bug Fixed: Footer widget wrap issue
+
+= 1.3 =
+* Bug Fixed: Header Highlight number now working properly - step changed from 2 to 1
+
+= 1.2 =
+* Added: Recent Posts widget
+* Bug Fixed: featured content wrapper margin issue
+* Updated: screenshot
+
+= 1.1 =
+* Updated: screenshot
+* Updated: header highlight demo content
+
+= 1.0 =
+* Added: German translation de_DE.po and de_DE.mo
+* Added: Danish translation da_DK.po and da_DK.mo
+* Added: Swedish translation sv_SE.po and sv_SE.mo
+* Added: Brazilian Portuguese translation pt_BR.po and pt_BR.mo
+* Bug Fixed: Missing closing section tag
+* Bug Fixed: Typo in Category
+* Bug Fixed: `sprintf() too few arguments` issue on other languages
+* Bug Fixed: White space issues at the end of files
+
+= 0.4 =
+* Removed: Header 403 forbidden messages
+
+= 0.3 =
+* Updated theme Tags in compliance with new tag changes
+* Bug Fixed: Background image issue
+* Removed: Admin bar css
+
+= 0.2 =
+* Added Theme Options
+* Added Header Highlights
+* Added Featured Content
+* Added News Ticker
+* Added Featured Slider
+* Added Color Options
+* Added Advertisement Widget and Instagram Widget
+* Added Header Right Sidebar
+* Updated: Structure using hooks
+* Release on catchthemes.com
+
+
+= 0.1 =
+* Initial Release
